@@ -4,3 +4,26 @@ body{
 canvas{
 	border: 1px solid black;
 }
+.project-text__title {
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-size: 6vw;
+    margin-bottom: 6px;
+    margin-top: 0;
+}
+
+.project-text {
+    z-index: 5;
+    padding: 0 15px;
+    text-align: center;
+    pointer-events: none;
+}
+
+.nav-container, .social-link i, .vertical-center {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+}
